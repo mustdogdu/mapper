@@ -50,7 +50,7 @@ class MainWindow;
 class Map;
 class MapEditorController;
 class MapWidget;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class Symbol;
 
 

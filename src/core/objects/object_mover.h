@@ -31,7 +31,7 @@
 #include "core/map_coord.h"
 
 class Map;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class PathObject;
 class TextObject;
 using SelectionInfoVector = std::vector<std::pair<int, Object*>>;

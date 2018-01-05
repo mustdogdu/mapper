@@ -28,7 +28,7 @@
 #include <QString>
 #include <QStringRef>
 
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class Symbol;
 
 

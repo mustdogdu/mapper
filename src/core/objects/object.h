@@ -45,11 +45,15 @@ class QXmlStreamWriter;
 // IWYU pragma: no_forward_declare QRectF
 
 class Map;
+class OCAD8FileImport;
 class PointObject;
 class PathObject;
 class TextObject;
 class VirtualCoordVector;
+class XMLImportExport;
 
+
+namespace OpenOrienteering {
 
 /**
  * Abstract base class which combines coordinates and a symbol to form an object
@@ -64,9 +68,9 @@ class VirtualCoordVector;
  */
 class Object  // clazy:exclude=copyable-polymorphic
 {
-friend class ObjectRenderables;
-friend class OCAD8FileImport;
-friend class XMLImportExport;
+friend class ::ObjectRenderables;
+friend class ::OCAD8FileImport;
+friend class ::XMLImportExport;
 public:
 	/** Enumeration of possible object types. */
 	enum Type
@@ -314,6 +318,9 @@ private:
 	mutable ObjectRenderables output; // only valid after calling update()
 };
 
+} // namespace OpenOrienteering
+
+using OpenOrienteering::Object;
 
 
 class PathPartVector;
@@ -1059,6 +1066,8 @@ struct ObjectPathCoord : public PathCoord
 
 //### Object inline code ###
 
+namespace OpenOrienteering {
+
 inline
 Object::Type Object::getType() const
 {
@@ -1126,6 +1135,7 @@ QString Object::getTag(const QString& key) const
 	return object_tags.value(key);
 }
 
+} // namespace OpenOrienteering
 
 
 //### PathPart inline code ###

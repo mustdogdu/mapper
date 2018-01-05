@@ -32,7 +32,7 @@ class QXmlStreamReader;
 class QXmlStreamWriter;
 
 class Map;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 
 
 /**

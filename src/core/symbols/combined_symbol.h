@@ -36,7 +36,7 @@ class QXmlStreamWriter;
 class Map;
 class MapColor;
 class MapColorMap;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class ObjectRenderables;
 class PathObject;
 class PathPartVector;

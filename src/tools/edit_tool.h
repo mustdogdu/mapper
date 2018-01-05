@@ -43,7 +43,7 @@ class QRectF;
 
 class MapEditorController;
 class MapWidget;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class ObjectSelector;
 using SelectionInfoVector = std::vector<std::pair<int, Object*>>;
 

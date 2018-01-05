@@ -45,7 +45,7 @@ class MapColor;
 class MapColorMap;
 class MapCoord;
 class MapCoordF;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class ObjectRenderables;
 class PathObject;
 class PathPartVector;

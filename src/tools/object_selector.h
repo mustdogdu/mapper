@@ -26,7 +26,7 @@
 
 class Map;
 class MapCoordF;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 using SelectionInfoVector = std::vector<std::pair<int, Object*>>;
 
 

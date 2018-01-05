@@ -38,7 +38,7 @@ class QPainterPath;
 // IWYU pragma: no_forward_declare QRectF
 
 class Map;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class PainterConfig;
 
 /**

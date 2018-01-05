@@ -46,7 +46,7 @@ class QWidget;
 class Map;
 class MapEditorTool;
 class MapWidget;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class PathObject;
 
 

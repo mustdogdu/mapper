@@ -66,6 +66,8 @@ namespace literal
 
 // ### Object implementation ###
 
+namespace OpenOrienteering {
+
 Object::Object(Object::Type type, const Symbol* symbol)
 : type(type),
   symbol(symbol),
@@ -842,6 +844,9 @@ void Object::includeControlPointsRect(QRectF& rect) const
 			rectInclude(rect, text_handle);
 	}
 }
+
+} // namespace OpenOrienteering
+
 
 
 // ### PathPart ###

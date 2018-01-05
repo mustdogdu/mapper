@@ -61,7 +61,7 @@ class MapPrinterConfig;
 class MapRenderables;
 class MapView;
 class MapWidget;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class PointSymbol;
 class RenderConfig;
 class Symbol;

@@ -46,7 +46,7 @@ class QToolButton;
 
 class MapEditorController;
 class MapWidget;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class ObjectMover;
 class TextObjectEditorHelper;
 

@@ -28,7 +28,7 @@
 
 class AddObjectsUndoStep;
 class Map;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class PathObject;
 class UndoStep;
 

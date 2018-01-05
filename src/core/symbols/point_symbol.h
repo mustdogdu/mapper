@@ -38,7 +38,7 @@ class Map;
 class MapColor;
 class MapColorMap;
 class MapCoordF;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class ObjectRenderables;
 class SymbolPropertiesWidget;
 class SymbolSettingDialog;

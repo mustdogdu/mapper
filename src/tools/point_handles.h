@@ -33,7 +33,7 @@
 class QPainter;
 
 class MapWidget;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 
 
 /**

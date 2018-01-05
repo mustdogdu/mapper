@@ -32,7 +32,7 @@ class QToolButton;
 class Map;
 class MapEditorController;
 class MapView;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 
 
 /**

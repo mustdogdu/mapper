@@ -39,7 +39,7 @@ class QXmlStreamWriter;
 
 class Map;
 class MapCoordF;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class Symbol;
 using SymbolDictionary = QHash<QString, Symbol*>; // from symbol.h
 

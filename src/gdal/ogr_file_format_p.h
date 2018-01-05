@@ -42,7 +42,7 @@ class LatLon;
 class LineSymbol;
 class MapColor;
 class MapPart;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class PathObject;
 class PointObject;
 class PointSymbol;

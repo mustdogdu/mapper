@@ -34,7 +34,7 @@
 class Map;
 class MapColor;
 class MapPart;
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 class PointObject;
 class TextObject;
 class Symbol;

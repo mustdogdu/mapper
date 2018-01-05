@@ -43,7 +43,7 @@
 #include "gui/map/map_editor.h"
 #include "gui/widgets/tag_select_widget.h"
 
-class Object;
+namespace OpenOrienteering { class Object; }  using OpenOrienteering::Object;
 
 
 MapFindFeature::MapFindFeature(MapEditorController& controller)
